@@ -1,0 +1,1 @@
+{"win": {"stable": {"released": "1000006", "testing": "1000006", "link": "/kdupdates/tupdate{version}"}}, "linux": {"stable": {"released": "1000006", "testing": "1000006", "link": "/kdupdates/tlinuxupd{version}"}}}
