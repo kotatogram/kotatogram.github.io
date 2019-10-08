@@ -8,3 +8,4 @@ description:
 github:
   win_release: https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.0.8/Windows.portable.zip
   linux_release: https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.0.8/Linux.64bit.tar.xz
+show_downloads: true
