@@ -1,7 +1,5 @@
 theme: jekyll-theme-midnight
-title:
-  ru: Kotatogram
-  en: Kotatogram
+title: Kotatogram
 description:
   ru: экспериментальный форк Telegram Desktop
   en: an experimental Telegram Desktop fork

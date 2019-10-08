@@ -45,13 +45,7 @@
 
       <section>
         <div id="title">
-          <h1>
-            {% if page.lang == "ru" %}
-              {{ site.title.ru }}
-            {% else %}
-              {{ site.title.en }}
-            {% endif %}
-          </h1>
+          <h1>{{ site.title }}</h1>
           <p>
             {% if page.lang == "ru" %}
               {{ site.description.ru }}
