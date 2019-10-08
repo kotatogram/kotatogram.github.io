@@ -1,3 +1,10 @@
 remote_theme: kotatogram/ghpages-midnight
-title: Kotatogram
-description: an experimental Telegram Desktop fork
+title:
+  ru: Kotatogram
+  en: Kotatogram
+description:
+  ru: экспериментальный форк Telegram Desktop
+  en: an experimental Telegram Desktop fork
+github:
+  win_release: https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.0.8/Windows.portable.zip
+  linux_release: https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.0.8/Linux.64bit.tar.xz
