@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'IBMPlexSansRegular';
+    src: url('../fonts/IBMPlexSans-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/IBMPlexSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansItalic';
+    src: url('../fonts/IBMPlexSans-Italic-webfont.woff') format('woff2'),
+         url('../fonts/IBMPlexSans-Italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansBold';
+    src: url('../fonts/IBMPlexSans-Bold-webfont.woff') format('woff2'),
+         url('../fonts/IBMPlexSans-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansBoldItalic';
+    src: url('../fonts/IBMPlexSans-BoldItalic-webfont.woff') format('woff2'),
+         url('../fonts/IBMPlexSans-BoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+}

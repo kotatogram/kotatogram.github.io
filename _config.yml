@@ -1,4 +1,4 @@
-remote_theme: kotatogram/ghpages-midnight
+theme: jekyll-theme-midnight
 title:
   ru: Kotatogram
   en: Kotatogram
