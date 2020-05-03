@@ -7,13 +7,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BRANCH: "test"
     steps:
       - name: Checkout current branch
         uses: actions/checkout@v2
-      - name: Checkout test
+      - name: Checkout target branch
         uses: actions/checkout@v2
         with:
-          ref: test
+          ref: ${{ env.BRANCH }}
           path: gh-pages
       - name: Clean old files
         run: |
@@ -34,5 +36,6 @@ jobs:
       - name: Push
         uses: ad-m/github-push-action@v0.5.0
         with:
+          branch: ${{ env.BRANCH }}
           directory: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
