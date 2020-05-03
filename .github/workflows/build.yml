@@ -12,8 +12,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout test
         uses: actions/checkout@v2
-        ref: 'test'
-        path: gh-pages
+        with:
+          ref: test
+          path: gh-pages
       - name: Clean old files
         run: |
           cd gh-pages
@@ -31,6 +32,6 @@ jobs:
           git commit -m "$MESSAGE" -a
       - name: Push
         uses: ad-m/github-push-action@v0.5.0
-        directory: gh-pages
         with:
+          directory: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
