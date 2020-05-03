@@ -15,7 +15,7 @@ Here is the list of all changes from official app.
 * "About" box link in drawer moved to app name to increase space for version.
 * Options "Show custom settings" and "Restart Kotatogram" in three-dots settings' menu.
 * JSON translations to rewrite phrases that are not in official. Russian included in app.
-* Admin ranks now shown in member list. Должности админов теперь показаны в списке участников.
+* Admin ranks now shown in member list.
 * Fixed "Channel is not accessible" error, when trying to open discussion channel from group post if target channel is private and you are not subscribed to it.
 * Changed "members" to "subscribers" for channels.
 * Keyboard shortcut to save draft to cloud (Ctrl+S by default).
