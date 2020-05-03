@@ -29,7 +29,8 @@ jobs:
         run: |
           git config user.email ${{ secrets.COMMITER_EMAIL }}
           git config user.name ${{ secrets.COMMITER_NAME }}
-          git commit -m "$MESSAGE" -a
+          git add *
+          git commit -m "$MESSAGE"
       - name: Push
         uses: ad-m/github-push-action@v0.5.0
         with:
