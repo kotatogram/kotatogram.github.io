@@ -12,30 +12,34 @@ jobs:
     steps:
       - name: Checkout current branch
         uses: actions/checkout@v2
+        with:
+          path: current
       - name: Checkout target branch
         uses: actions/checkout@v2
         with:
           ref: ${{ env.BRANCH }}
-          path: gh-pages
+          path: target
       - name: Clean old files
         run: |
-          cd gh-pages
+          cd target
           rm -rf *
       - name: Copy public files
-        run: cp -r public/* gh-pages/
+        run: cp -r current/public/* target/
       - name: Get commit message
         run: |
+          cd current
           COMMIT_MESSAGE=$(git log --format=%B -n 1 $GITHUB_SHA)
           echo "::set-env name=MESSAGE::$COMMIT_MESSAGE"
       - name: Commit changes
         run: |
           git config user.email ${{ secrets.COMMITER_EMAIL }}
           git config user.name ${{ secrets.COMMITER_NAME }}
+          cd target
           git add *
           git commit -m "$MESSAGE"
       - name: Push
         uses: ad-m/github-push-action@v0.5.0
         with:
           branch: ${{ env.BRANCH }}
-          directory: gh-pages
+          directory: target
           github_token: ${{ secrets.GITHUB_TOKEN }}
