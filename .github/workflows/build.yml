@@ -32,7 +32,6 @@ jobs:
         run: |
           cd target
           echo "::set-env name=HAS_CHANGES::1"
-          
           git status | grep -q "nothing to commit, working tree clean" \
           || echo "::set-env name=HAS_CHANGES::0"
       - name: Setting up credentials
