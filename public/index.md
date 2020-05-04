@@ -4,7 +4,7 @@ This is an experimental fork of [Telegram Desktop](https://github.com/). It cont
 
 ## What features does it have?
 
-See [complete list of changes](https://kotatogram.github.io/changes).
+See [complete list of changes](https://kotatogram.github.io/changes). It's not fully updated though.
 
 ## Where can I get it?
 
