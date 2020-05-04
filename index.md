@@ -10,7 +10,7 @@ See [complete list of changes](https://kotatogram.github.io/changes).
 
 From [GitHub releases](https://github.com/kotatogram/kotatogram-desktop/releases) or [Telegram channel](https://t.me/kotatogram). If you have at least 1.0 version, there are also autoupdates.
 
-Currently there are builds for Windows and 64 bit Linux. There are no plans to support other platforms for now.
+Currently there are builds for Windows and 64 bit Linux, and AppImages for Linux. There are no plans to support other platforms for now.
 
 ## Where is the source code?
 
