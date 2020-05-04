@@ -31,7 +31,8 @@ jobs:
       - name: Check for changes
         run: |
           cd target
-          CHANGES=$(git status | grep -q "nothing to commit, working tree clean"; $?)
+          git status | grep -q "nothing to commit, working tree clean"
+          CHANGES="$?"
           echo "::set-env name=HAS_CHANGES::$CHANGES"
       - name: Setting up credentials
         if: ${{ env.HAS_CHANGES }}
