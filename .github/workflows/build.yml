@@ -28,17 +28,25 @@ jobs:
           rm -rf *
       - name: Copy public files
         run: cp -r current/public/* target/
+      - name: Check for changes
+        run: |
+          cd target
+          CHANGES=$(git status | grep "nothing to commit, working tree clean")
+          echo "::set-env name=HAS_CHANGES::$CHANGES"
       - name: Setting up credentials
+        if: ${{ env.HAS_CHANGES }}
         run: |
           cd target
           git config user.email ${{ secrets.COMMITER_EMAIL }}
           git config user.name ${{ secrets.COMMITER_NAME }}
       - name: Commit changes
+        if: ${{ env.HAS_CHANGES }}
         run: |
           cd target
           git add -A
           git commit -m "${{ github.event.head_commit.message }}"
       - name: Push changes to target
+        if: ${{ env.HAS_CHANGES }}
         run: |
           cd target
           git push "https://${{ secrets.KOTATO_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
