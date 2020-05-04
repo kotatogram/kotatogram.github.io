@@ -28,16 +28,17 @@ jobs:
           rm -rf *
       - name: Copy public files
         run: cp -r current/public/* target/
-      - name: Commit changes
+      - name: Setting up credentials
         run: |
           cd target
           git config user.email ${{ secrets.COMMITER_EMAIL }}
           git config user.name ${{ secrets.COMMITER_NAME }}
+      - name: Commit changes
+        run: |
+          cd target
           git add -A
           git commit -m "${{ github.event.head_commit.message }}"
-      - name: Push
-        uses: ad-m/github-push-action@v0.5.0
-        with:
-          branch: ${{ env.BRANCH }}
-          directory: target
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes to target
+        run: |
+          cd target
+          git push "https://${{ secrets.KOTATO_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
