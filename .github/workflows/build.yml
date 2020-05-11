@@ -29,25 +29,25 @@ jobs:
       - name: Copy public files
         run: cp -r current/public/* target/
       - name: Check for changes
+        id: no_changes
         continue-on-error: true
         run: |
           cd target
           git status | grep -q "nothing to commit, working tree clean"
-          echo "::set-env name=HAS_CHANGES::$?"
       - name: Setting up credentials
-        if: ${{ env.HAS_CHANGES != 0 }}
+        if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
           git config user.email ${{ secrets.COMMITER_EMAIL }}
           git config user.name ${{ secrets.COMMITER_NAME }}
       - name: Commit changes
-        if: ${{ env.HAS_CHANGES != 0 }}
+        if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
           git add -A
           git commit -m "${{ github.event.head_commit.message }}"
       - name: Push changes to target
-        if: ${{ env.HAS_CHANGES != 0 }}
+        if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
           git push "https://${{ secrets.KOTATO_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
