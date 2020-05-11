@@ -1,6 +1,6 @@
 # Changes
 
-Here is the list of all changes from official app.
+Here is the incomplete list of all changes from official app.
 
 ## Current changes
 
