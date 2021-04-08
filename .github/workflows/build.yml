@@ -14,9 +14,15 @@ jobs:
     env:
       BRANCH: "master"
     steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
       - name: Checkout current branch
         uses: actions/checkout@v2
         with:
+          submodules: true
           path: current
       - name: Checkout target branch
         uses: actions/checkout@v2
@@ -27,8 +33,14 @@ jobs:
         run: |
           cd target
           rm -rf *
+      - name: Build Hugo site
+        run: |
+          cd current/hugo
+          hugo --minify
       - name: Copy public files
-        run: cp -r current/public/* target/
+        run: |
+          cp -r current/hugo/public/* target/
+          cp -r current/public/* target/
       - name: Check for changes
         id: no_changes
         continue-on-error: true

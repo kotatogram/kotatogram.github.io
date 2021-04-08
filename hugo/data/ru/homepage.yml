@@ -1,0 +1,82 @@
+banner:
+  enable: true
+  title: "Kotatogram Desktop"
+  content: >
+    Экспериментальный форк [Telegram Desktop](https://desktop.telegram.org/).
+  buttons:
+    - title: "Скачать стабильную 1.3.5"
+      subtitle: "на основе Telegram Desktop 2.1.2"
+      link: "/ru/download/"
+      class: "primary"
+      titleClass: "icon solid fa-download"
+    - title: "Исходный код"
+      subtitle: "GPL v3 (OpenSSL exception)"
+      link: "https://github.com/kotatogram/kotatogram-desktop"
+      titleClass: "icon brands fa-github"
+
+highlight:
+  enable: true
+  header: "Всё, что есть в Telegram Desktop и больше"
+  content: >
+    Kotatogram Desktop, будчи основанным на Telegram Desktop, обладает
+    всеми его функциями, но также имеет и другие полезные и косметические функции.
+  #image: "/images/pic01.jpg"
+
+features:
+  enable: true
+  rows:
+    - items:
+      - title: "Локальные папки"
+        icon: "fa-folder"
+        accent: "accent2"
+        content: >
+          У них нет синхронизации, но у них нет и ограничений по
+          количеству чатов в папке, закреплённых чатов или самих папок.
+          А ещё у них есть новые фильтры вида «исключить чаты, где я не админ»
+          или «исключить чаты из других папок». **[На данный момент ещё в бете.](/ru/download/#beta)**
+      - title: "Пересылка без автора"
+        icon: "fa-share"
+        accent: "accent3"
+        content: >
+          Быстро дублируйте содержимое сообщений в любой другой чат
+          без ручного копирования или перезагрузки файлов на сервер.
+          Вы также можете сгруппировать файлы в альбомы, чтобы сократить
+          количество уведомлений, или отправить альбомы раздельными сообщениями.
+          **[На данный момент ещё в бете.](/ru/download/#beta)**
+    - items:
+      - title: "Пользовательские шрифты"
+        icon: "fa-font"
+        accent: "accent4"
+        content: >
+          Меняйте стандартный шрифт Open Sans, вместе с Open Sans Semibold
+          и стандартным моноширинным шрифтом, на что-то более читабельное
+          или визуально привлекательное для вас.
+      - title: "Широкие сообщения"
+        icon: "fa-comment-alt"
+        accent: "accent5"
+        content: >
+          Изначально портированная контрибьютором из патча, эта функция
+          быстро стала частью Kotatogram, и теперь вы можете читать сообщения на
+          больших мониторах без ограничений.
+
+cta:
+  enable: true
+  header: "И другие"
+  content: >
+    В Kotatogram есть несколько больших и немало небольших функций,
+    и со временем их станет больше.
+  buttons:
+    - title: "Все функции"
+      link: "/ru/features/"
+      class: "primary icon solid fa-list"
+    - title: "Скачать стабильную 1.3.5"
+      link: "/ru/download/"
+      class: "icon solid fa-download"
+
+blog:
+  enable: true
+  header: "Последние новости"
+  buttonText: "Подробнее"
+  postCount: 2
+
+

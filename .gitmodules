@@ -1,0 +1,3 @@
+[submodule "hugo/themes/hugo-html5up-alpha"]
+	path = hugo/themes/hugo-html5up-alpha
+	url = https://github.com/kotatogram/hugo-html5up-alpha.git

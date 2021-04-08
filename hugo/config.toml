@@ -1,0 +1,129 @@
+baseURL = "https://kotatogram.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Kotatogram Desktop"
+theme = "hugo-html5up-alpha"
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      description = "Experimental fork of Telegram Desktop."
+      copyright = "2021 © [RadRussianRus](https://t.me/RadRussianRus). All rights reserved."
+      author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/), modified by [RadRussianRus](https://t.me/RadRussianRus)"
+      design = "Design: [HTML5 UP](http://html5up.net/)"
+      dateFormat = "Jan 2, 2006 at 03:04 PM"
+      publishedOnStr = "Published on: "
+      tagsStr = "Tags: "
+      [[languages.en.params.share]]
+        title = "Telegram"
+        icon = "fa-telegram"
+        link = "https://t.me/kotatogram"
+      [[languages.en.params.share]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "https://github.com/kotatogram/kotatogram-desktop"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "download"
+        name = "Download"
+        url = "/download/"
+        weight = 20
+        pre = "icon solid fa-download"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#"
+        weight = 30
+        pre = "icon solid fa-angle-down"
+      [[languages.en.menu.main]]
+        parent = "about"
+        identifier = "features"
+        name = "Features"
+        url = "/features/"
+        weight = 31
+      [[languages.en.menu.main]]
+        parent = "about"
+        identifier = "faq"
+        name = "FAQ"
+        url = "/faq/"
+        weight = 32
+      [[languages.en.menu.main]]
+        parent = "about"
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 33
+
+  [languages.ru]
+    languageName = "Русский"
+    weight = 2
+    [languages.ru.params]
+      description = "Экспериментальный форк Telegram Desktop."
+      copyright = "2021 © RadRussianRus. Все права сохранены."
+      author = "Порт для Hugo: [Nelson/Roberto](https://nelsonroberto.com/), модифицировано [RadRussianRus](https://t.me/RadRussianRus)"
+      design = "Дизайн: [HTML5 UP](http://html5up.net/)"
+      dateFormat = "02.01.2006 в 15:04"
+      publishedOnStr = "Опубликовано: "
+      tagsStr = "Метки: "
+      [[languages.ru.params.share]]
+        title = "Telegram"
+        icon = "fa-telegram"
+        link = "https://t.me/kotatogram_ru"
+      [[languages.ru.params.share]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "https://github.com/kotatogram/kotatogram-desktop"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        identifier = "home"
+        name = "Главная"
+        url = "/ru/"
+        weight = 10
+      [[languages.ru.menu.main]]
+        identifier = "download"
+        name = "Скачать"
+        url = "/ru/download/"
+        weight = 20
+        pre = "icon solid fa-download"
+      [[languages.ru.menu.main]]
+        identifier = "about"
+        name = "Информация"
+        url = "#"
+        weight = 30
+        pre = "icon solid fa-angle-down"
+      [[languages.ru.menu.main]]
+        parent = "about"
+        identifier = "features"
+        name = "Функции"
+        url = "/ru/features/"
+        weight = 31
+      [[languages.ru.menu.main]]
+        parent = "about"
+        identifier = "faq"
+        name = "ЧаВо"
+        url = "/ru/faq/"
+        weight = 32
+      [[languages.ru.menu.main]]
+        parent = "about"
+        identifier = "blog"
+        name = "Блог"
+        url = "/ru/blog/"
+        weight = 33
+
+[params]
+  images = ["/images/pic01.jpg"]
+  mainSections = ["blog"]
+  tgCommentsSiteId = "LHtsLPom"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
