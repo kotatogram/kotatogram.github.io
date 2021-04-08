@@ -119,7 +119,7 @@ theme = "hugo-html5up-alpha"
         weight = 33
 
 [params]
-  images = ["/images/pic01.jpg"]
+  images = ["/images/logo.png"]
   mainSections = ["blog"]
   tgCommentsSiteId = "LHtsLPom"
 
