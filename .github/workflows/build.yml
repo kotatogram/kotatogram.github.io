@@ -46,21 +46,21 @@ jobs:
         continue-on-error: true
         run: |
           cd target
-          git status | grep -q "nothing to commit, working tree clean"
+          /usr/bin/git status | grep -q "nothing to commit, working tree clean"
       - name: Setting up credentials
         if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
-          git config user.email ${{ secrets.COMMITER_EMAIL }}
-          git config user.name ${{ secrets.COMMITER_NAME }}
+          /usr/bin/git config user.email ${{ secrets.COMMITER_EMAIL }}
+          /usr/bin/git config user.name ${{ secrets.COMMITER_NAME }}
       - name: Commit changes
         if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
-          git add -A
-          git commit -m "${{ github.event.head_commit.message }}"
+          /usr/bin/git add -A
+          /usr/bin/git commit -m "${{ github.event.head_commit.message }}"
       - name: Push changes to target
         if: steps.no_changes.outcome == 'failure'
         run: |
           cd target
-          git push "https://${{ secrets.KOTATO_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          /usr/bin/git push "https://${{ secrets.KOTATO_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
