@@ -33,7 +33,7 @@ features:
           They're not synced, but they have no limits on chats, pins or
           folder count. And they have some new filtering modes like 
           "exclude chats where I'm not admin" or 
-          "exclude chats from other folders". **Currently only in beta.**
+          "exclude chats from other folders". **[Currently only in beta.](/download#beta)**
       - title: "Unquoted forward"
         icon: "fa-share"
         accent: "accent3"
@@ -41,7 +41,7 @@ features:
           Quickly duplicate messages content to any other chat without
           needing to copy/paste it or reuploading files. You can also group
           some files into albums to reduce notifications, or send the albums
-          as separate messages. **Currently only in beta.**
+          as separate messages. **[Currently only in beta.](/download#beta)**
     - items:
       - title: "Custom fonts"
         icon: "fa-font"
