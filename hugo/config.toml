@@ -108,7 +108,7 @@ theme = "hugo-html5up-alpha"
       [[languages.ru.menu.main]]
         parent = "about"
         identifier = "faq"
-        name = "ЧаВо"
+        name = "FAQ"
         url = "/ru/faq/"
         weight = 32
       [[languages.ru.menu.main]]

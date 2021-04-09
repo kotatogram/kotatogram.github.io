@@ -18,7 +18,7 @@ highlight:
   enable: true
   header: "Всё, что есть в Telegram Desktop и больше"
   content: >
-    Kotatogram Desktop, будчи основанным на Telegram Desktop, обладает
+    Kotatogram Desktop, будучи основанным на Telegram Desktop, обладает
     всеми его функциями, но также имеет и другие полезные и косметические функции.
   #image: "/images/pic01.jpg"
 

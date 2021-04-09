@@ -1,5 +1,5 @@
 +++
-Title = "ЧаВо"
+Title = "FAQ"
 description = "Часто задаваемые вопросы по Kotatogram Desktop."
 +++
 
