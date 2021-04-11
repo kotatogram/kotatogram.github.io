@@ -4,7 +4,7 @@ description: ""
 ---
 {{< subheader >}}
 ## Стабильная версия {#stable}
-Последняя — [**{{< site/version kotatogram stable>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram stable>}}) (на основе Telegram Desktop {{< site/version tdesktop stable>}}).
+Последняя — [**{{< site/version kotatogram stable>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram stable>}}) (на основе Telegram Desktop [{{< site/version tdesktop stable>}}](https://github.com/telegramdesktop/tdesktop/releases/tag/v{{< site/version tdesktop stable>}})).
 {{</ subheader >}}
 
 {{< subheader >}}
@@ -36,7 +36,7 @@ description: ""
 
 {{< subheader >}}
 ## Бета-версия {#beta}
-Последняя — [**{{< site/version kotatogram beta>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram beta>}}) (на основе Telegram Desktop {{< site/version tdesktop beta>}}).
+Последняя — [**{{< site/version kotatogram beta>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram beta>}}) (на основе Telegram Desktop [{{< site/version tdesktop beta>}}](https://github.com/telegramdesktop/tdesktop/releases/tag/v{{< site/version tdesktop beta>}})).
 {{</ subheader >}}
 
 {{< subheader >}}

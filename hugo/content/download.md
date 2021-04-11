@@ -5,7 +5,7 @@ description: ""
 
 {{< subheader >}}
 ## Stable version {#stable}
-Latest is [**{{< site/version kotatogram stable>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram stable>}}) (based on Telegram Desktop {{< site/version tdesktop stable>}})
+Latest is [**{{< site/version kotatogram stable>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram stable>}}) (based on Telegram Desktop [{{< site/version tdesktop stable>}}](https://github.com/telegramdesktop/tdesktop/releases/tag/v{{< site/version tdesktop stable>}}))
 {{< /subheader >}}
 
 {{< subheader >}}
@@ -37,7 +37,7 @@ Latest is [**{{< site/version kotatogram stable>}}**](https://github.com/kotatog
 
 {{< subheader >}}
 ## Beta version {#beta}
-Latest is [**{{< site/version kotatogram beta>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram beta>}}) (based on Telegram Desktop {{< site/version tdesktop beta>}})
+Latest is [**{{< site/version kotatogram beta>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram beta>}}) (based on Telegram Desktop [{{< site/version tdesktop beta>}}](https://github.com/telegramdesktop/tdesktop/releases/tag/v{{< site/version tdesktop beta>}}))
 {{< /subheader >}}
 
 {{< subheader >}}
