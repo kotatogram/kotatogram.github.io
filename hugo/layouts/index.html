@@ -1,0 +1,140 @@
+{{ $data := index .Site.Data .Site.Language.Lang -}}
+<!DOCTYPE html>
+<html>
+    <head>
+        {{- partial "head.html" . -}}
+        {{ template "_internal/opengraph.html" . }}
+    </head>
+    <body class="landing is-preload">
+        <div id="page-wrapper">
+            {{- partial "header.html" . -}}
+
+            <!-- Banner -->
+            <section id="banner">
+            {{ if $data.homepage.banner.enable }}
+            {{ with $data.homepage.banner }}
+                <h2>{{ .title }}</h2>
+                <p>{{ with .content }}{{ . | markdownify }}{{else}}{{ $.Site.Params.description }}{{end}}</p>
+                {{ with .buttons }}
+                <ul class="actions special">
+                  {{ with .download }}
+                  <li>
+                    <a href="{{ .link }}" class="button {{ .class }}">
+                      <span class="title {{ .titleClass }}">{{ printf .title $.Site.Data.version.stable.version }}</span>
+                      <span class="subtitle">{{ printf .subtitle $.Site.Data.version.stable.tdesktop_version }}</span>
+                    </a>
+                  </li>
+                  {{ end }}
+                  {{ range .other }}
+                  <li>
+                    <a href="{{ .link }}" class="button {{ .class }}">
+                      <span class="title {{ .titleClass }}">{{ .title }}</span>
+                      <span class="subtitle">{{ .subtitle }}</span>
+                    </a>
+                  </li>
+                  {{ end }}
+                </ul>
+                {{ end }}
+            {{ end }}
+            {{ end }}
+            </section>
+
+            <!-- Main -->
+            <section id="main" class="container">
+                <!-- Highlight -->
+                {{ if $data.homepage.highlight.enable }}
+                {{ with $data.homepage.highlight }}
+                    <section class="box special">
+                        <header class="major">
+                            {{/* Include 'safeHTML' function to render the HTML in strings */}}
+                            <h2>{{ .header | safeHTML }}</h2>
+                            <p>{{ .content | safeHTML }}</p>
+                        </header>
+                        {{ with .image }}
+                        <span class="image featured"><img src="{{ . }}" alt="" /></span>
+                        {{ end }}
+                    </section>
+                {{ end }}
+                {{ end }}
+
+                <!-- Features -->
+                {{ if $data.homepage.features.enable }}
+                {{ with $data.homepage.features }}
+                    <section class="box special features">
+                        {{ range .rows }}
+                        <div class="features-row">
+                            {{ range .items }}
+                            <section>
+                                <span class="icon solid major {{ .icon }} {{ .accent }}"></span>
+                                <h3>{{ .title }}</h3>
+                                <p>{{ .content | markdownify }}</p>
+                            </section>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </section>
+                {{ end }}
+                {{ end }}
+
+                <!-- CTA -->
+                {{ if $data.homepage.cta.enable }}
+                {{ with $data.homepage.cta}}
+                    <section id="cta">
+                        <h2>{{ .header }}</h2>
+                        <p>{{ .content }}</p>
+                        {{ with .buttons }}
+                        <ul class="actions special">
+                        {{ range .other }}
+                          <li>
+                            <a href="{{ .link }}" class="button {{ .class }}">{{ .title }}</a>
+                          </li>
+                        {{ end }}
+                          {{ with .download }}
+                          <li>
+                            <a href="{{ .link }}" class="button {{ .class }}">{{ printf .title $.Site.Data.version.stable.version }}</a>
+                          </li>
+                          {{ end }}
+                        </ul>
+                        {{ end }}
+                    </section>
+                {{ end }}
+                {{ end }}
+
+                <!-- Posts -->
+                {{ if $data.homepage.blog.enable }}
+                {{ with $blogSettings := $data.homepage.blog }}
+                  {{ with .header }}
+                  <header class="major">
+                      <h2>{{ . }}</h2>
+                  </header>
+                  {{ end }}
+                  <div class="row">
+                      {{ range first .postCount (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+                          <div class="col-6 col-12-narrower">
+                              <section class="box special">
+                                  {{ with partial "bannerURL" . }}
+                                  <span class="image featured"><img src="{{ . }}" alt="" /></span>
+                                  {{ end }}
+                                  <h3>{{ .Title }}</h3>
+                                  {{ with .Date }}<p>{{ .Format $.Site.Params.dateFormat }}</p>{{ end }}
+                                  {{ with .Description }}
+                                  <p>{{ . }}</p>
+                                  {{ else }}
+                                  <p>{{ .Summary }}</p>
+                                  {{ end }}
+                                  <ul class="actions special">
+                                      <li><a href="{{ .Permalink }}" class="button alt">{{ $blogSettings.buttonText }} </a></li>
+                                  </ul>
+                              </section>
+                          </div>
+                      {{ end }}
+                  </div>
+                {{ end }}
+                {{ end }}
+            </section>
+
+            {{- partial "footer.html" . -}}
+        </div>
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>

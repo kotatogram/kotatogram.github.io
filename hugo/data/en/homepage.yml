@@ -4,15 +4,17 @@ banner:
   content: >
     Experimental fork of [Telegram Desktop](https://desktop.telegram.org/).
   buttons:
-    - title: "Download stable 1.3.5"
-      subtitle: "based on Telegram Desktop 2.1.2"
+    download:
+      title: "Download stable %s"
+      subtitle: "based on Telegram Desktop %s"
       link: "/download/"
       class: "primary"
       titleClass: "icon solid fa-download"
-    - title: "Source code"
-      subtitle: "GPL v3 (OpenSSL exception)"
-      link: "https://github.com/kotatogram/kotatogram-desktop"
-      titleClass: "icon brands fa-github"
+    other:
+      - title: "Source code"
+        subtitle: "GPL v3 (OpenSSL exception)"
+        link: "https://github.com/kotatogram/kotatogram-desktop"
+        titleClass: "icon brands fa-github"
 
 highlight:
   enable: true
@@ -65,10 +67,12 @@ cta:
     Kotatogram has some big and many small cosmetic and useful features,
     with more to come.
   buttons:
-    - title: "See all features"
-      link: "/features/"
-      class: "primary icon solid fa-list"
-    - title: "Download stable 1.3.5"
+    other:
+      - title: "See all features"
+        link: "/features/"
+        class: "primary icon solid fa-list"
+    download:
+      title: "Download stable %s"
       link: "/download/"
       class: "icon solid fa-download"
 

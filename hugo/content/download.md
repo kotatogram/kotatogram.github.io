@@ -1,86 +1,66 @@
 ---
 Title: Download Kotatogram Desktop
-description: "Latest versions: stable 1.3.5 (TD 2.1.4), beta 1.3.9 (TD 2.3.2)"
+description: ""
 ---
 
 {{< subheader >}}
 ## Stable version {#stable}
-Latest is [**1.3.5**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k1.3.5) (based on Telegram Desktop 2.1.4)
+Latest is [**{{< site/version kotatogram stable>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram stable>}}) (based on Telegram Desktop {{< site/version tdesktop stable>}})
 {{< /subheader >}}
 
 {{< subheader >}}
 ### Windows {#stable-windows}
-Supports Windows 7 and higher.
+{{< site/subtitle windows stable>}}
 {{< /subheader >}}
 
-{{< button-group class="actions" >}}
-    {{< button title="Installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/ksetup.1.3.5.exe" class="icon solid fa-download primary" >}}
-    {{< button title="Portable" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5.zip" class="icon solid fa-download primary" >}}
-{{< /button-group >}}
+{{< site/builds windows stable>}}
 
 {{< subheader >}}
 ### Linux {#stable-linux}
-Supports Ubuntu 16.04 and higher.
+{{< site/subtitle linux stable>}}
 {{< /subheader >}}
 
-{{< button-group class="actions" >}}
-    {{< button title="Static 64-bit binary" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5.tar.xz" class="icon solid fa-download primary" >}}
-    {{< button title="AppImage" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5-appimage.tar.xz" class="icon solid fa-download primary" >}}
-    {{< button title="Snap" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/kotatogram-desktop_1.3.5_amd64.snap" class="icon solid fa-download primary" >}}
-{{< /button-group >}}
+{{< site/builds linux stable>}}
 
 #### Alternative options {#stable-linux-alternative}
 
-{{< button-group class="actions" >}}
-    {{< button title="FlatHub page" link= "https://flathub.org/apps/details/io.github.kotatogram" >}}
-    {{< button title="Repology page" link= "https://repology.org/project/kotatogram-desktop/versions" >}}
-{{< /button-group >}}
+{{< site/builds_alt linux stable>}}
 
 {{< subheader >}}
 ### macOS {#stable-macos}
-Coming soon!
+{{< site/subtitle macos stable>}}
 {{< /subheader >}}
+
+{{< site/builds macos stable>}}
 
 {{< box-separator >}}
 
 {{< subheader >}}
 ## Beta version {#beta}
-Latest is [**1.3.9**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k1.3.9) (based on Telegram Desktop 2.3.2)
+Latest is [**{{< site/version kotatogram beta>}}**](https://github.com/kotatogram/kotatogram-desktop/releases/tag/k{{< site/version kotatogram beta>}}) (based on Telegram Desktop {{< site/version tdesktop beta>}})
 {{< /subheader >}}
 
 {{< subheader >}}
 ### Windows {#beta-windows}
-Supports Windows 7 and higher.
+{{< site/subtitle windows beta>}}
 {{< /subheader >}}
 
-{{< button-group class="actions" >}}
-    {{< button title="Installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/ksetup.1.3.9.exe" class="icon solid fa-download primary" >}}
-    {{< button title="Portable" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.zip" class="icon solid fa-download primary" >}}
-{{< /button-group >}}
-
+{{< site/builds windows beta>}}
 
 {{< subheader >}}
 ### Linux {#beta-linux}
-Supports Ubuntu 16.04 and higher.
+{{< site/subtitle linux beta>}}
 {{< /subheader >}}
 
-{{< button-group class="actions" >}}
-    {{< button title="AppImage" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.tar.xz" class="icon solid fa-download primary" >}}
-{{< /button-group >}}
+{{< site/builds linux beta>}}
 
 #### Alternative options {#beta-linux-alternative}
 
-{{< button-group class="actions" >}}
-    {{< button title="FlatHub page" link= "https://flathub.org/apps/details/io.github.kotatogram" >}}
-    {{< button title="Repology page" link= "https://repology.org/project/kotatogram-desktop/versions" >}}
-{{< /button-group >}}
+{{< site/builds_alt linux beta>}}
 
 {{< subheader >}}
 ### macOS {#beta-macos}
-Supports macOS 10.15 and higher.
+{{< site/subtitle macos beta>}}
 {{< /subheader >}}
 
-{{< button-group class="actions" >}}
-    {{< button title="Download" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.dmg" class="icon solid fa-download primary" >}}
-{{< /button-group >}}
-
+{{< site/builds macos beta>}}

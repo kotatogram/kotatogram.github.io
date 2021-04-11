@@ -1,0 +1,10 @@
+{{ $os := .Get 0 -}}
+{{ $branch := .Get 1 -}}
+{{ $builds := ((index (index $.Site.Data.version $branch) $os).builds) -}}
+{{ with $builds -}}
+<ul class="actions">
+	{{- range $builds }}
+	<li><a href="{{ .link }}" class="button icon solid fa-download primary">{{ index .name $.Site.Language.Lang }}</a></li>
+	{{ end -}}
+</ul>
+{{ end -}}

@@ -1,0 +1,3 @@
+{{ $os := .Get 0 -}}
+{{ $branch := .Get 1 -}}
+{{ index (index (index .Site.Data.version $branch) $os).subtitle .Site.Language.Lang -}}

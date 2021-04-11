@@ -1,0 +1,89 @@
+stable:
+  version: "1.3.5"
+  tdesktop_version: "2.1.4"
+  windows:
+    subtitle:
+      en: "Supports Windows 7 and higher."
+      ru: "Поддерживает Windows 7 и выше."
+    builds:
+      - name: 
+          en: "Installer"
+          ru: "Установщик"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/ksetup.1.3.5.exe"
+      - name:
+          en: "Portable"
+          ru: "Портативная версия"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5.zip"
+  linux:
+    subtitle:
+      en: "Supports Ubuntu 16.04 and higher."
+      ru: "Поддерживает Ubuntu 16.04 и выше."
+    builds:
+      - name:
+          en: "Static 64-bit binary"
+          ru: "Статичный 64-битный бинарь"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5.tar.xz"
+      - name:
+          en: "AppImage"
+          ru: "AppImage"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/1.3.5-appimage.tar.xz"
+      - name:
+          en: "Snap"
+          ru: "Snap"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.5/kotatogram-desktop_1.3.5_amd64.snap"
+    alternative:
+      - name:
+          en: "FlatHub page"
+          ru: "Страница на FlatHub"
+        link: "https://flathub.org/apps/details/io.github.kotatogram"
+      - name:
+          en: "Repology page"
+          ru: "Страница на Repology"
+        link: "https://repology.org/project/kotatogram-desktop/versions"
+  macos:
+    subtitle: 
+      en: "Coming soon!"
+      ru: "Скоро!"
+beta:
+  version: "1.3.9"
+  tdesktop_version: "2.3.2"
+  windows:
+    subtitle:
+      en: "Supports Windows 7 and higher."
+      ru: "Поддерживает Windows 7 и выше."
+    builds:
+      - name: 
+          en: "Installer"
+          ru: "Установщик"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/ksetup.1.3.9.exe"
+      - name:
+          en: "Portable"
+          ru: "Портативная версия"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.zip"
+  linux:
+    subtitle:
+      en: "Supports Ubuntu 16.04 and higher."
+      ru: "Поддерживает Ubuntu 16.04 и выше."
+    builds:
+      - name:
+          en: "AppImage"
+          ru: "AppImage"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.tar.xz"
+    alternative:
+      - name:
+          en: "FlatHub page"
+          ru: "Страница на FlatHub"
+        link: "https://flathub.org/apps/details/io.github.kotatogram"
+      - name:
+          en: "Repology page"
+          ru: "Страница на Repology"
+        link: "https://repology.org/project/kotatogram-desktop/versions"
+  macos:
+    subtitle:
+      en: "Supports macOS 10.15 and higher."
+      ru: "Поддерживает macOS 10.15 и выше."
+    builds:
+      - name:
+          en: "Download"
+          ru: "Скачать"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.3.9/1.3.9.dmg"

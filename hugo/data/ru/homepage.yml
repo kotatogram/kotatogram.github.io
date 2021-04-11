@@ -4,15 +4,17 @@ banner:
   content: >
     Экспериментальный форк [Telegram Desktop](https://desktop.telegram.org/).
   buttons:
-    - title: "Скачать стабильную 1.3.5"
-      subtitle: "на основе Telegram Desktop 2.1.2"
+    download:
+      title: "Скачать стабильную %s"
+      subtitle: "на основе Telegram Desktop %s"
       link: "/ru/download/"
       class: "primary"
       titleClass: "icon solid fa-download"
-    - title: "Исходный код"
-      subtitle: "GPL v3 (OpenSSL exception)"
-      link: "https://github.com/kotatogram/kotatogram-desktop"
-      titleClass: "icon brands fa-github"
+    other:
+      - title: "Исходный код"
+        subtitle: "GPL v3 (OpenSSL exception)"
+        link: "https://github.com/kotatogram/kotatogram-desktop"
+        titleClass: "icon brands fa-github"
 
 highlight:
   enable: true
@@ -66,10 +68,12 @@ cta:
     В Kotatogram есть несколько больших и немало небольших функций,
     и со временем их станет больше.
   buttons:
-    - title: "Все функции"
-      link: "/ru/features/"
-      class: "primary icon solid fa-list"
-    - title: "Скачать стабильную 1.3.5"
+    other:
+      - title: "Все функции"
+        link: "/ru/features/"
+        class: "primary icon solid fa-list"
+    download:
+      title: "Скачать стабильную %s"
       link: "/ru/download/"
       class: "icon solid fa-download"
 

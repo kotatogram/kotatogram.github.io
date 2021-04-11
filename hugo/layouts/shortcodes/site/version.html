@@ -1,0 +1,7 @@
+{{ $client := .Get 0 -}}
+{{ $branch := .Get 1 -}}
+{{ if eq $client "kotatogram" -}}
+	{{ (index .Site.Data.version $branch).version -}}
+{{ else if eq $client "tdesktop" -}}
+	{{ (index .Site.Data.version $branch).tdesktop_version -}}
+{{ end -}}
