@@ -27,6 +27,7 @@ Following features currently considered as violating Telegram API Terms of Servi
 * Ghost mode (hiding online status, read status notifications and so on)
 * Ignore blocked users in chat
 * Hiding proxy sponsor in chat list
+* Un-deletion of messages
 
 It's possible that if Telegram will add ads, its removal will also be considered as Telegram API TOS violation.
 
