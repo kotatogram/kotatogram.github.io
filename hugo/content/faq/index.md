@@ -7,6 +7,7 @@ Here tackled some questions that asked pretty frequently.
 
 * [When update?](#when-update)
 * [Will ghost mode/blocked users ignore be made?](#ghost-mode)
+* [Will Android version be made?](#android)
 * [My anti-virus detects Kotatogram as a malware!](#antivirus-detect)
 * [Is it true that account can be banned because of unofficial client usage?](#alt-client-bans)
 * [Do you have any plans to monetize Kotatogram?](#monetize)
@@ -28,6 +29,10 @@ Following features currently considered as violating Telegram API Terms of Servi
 * Hiding proxy sponsor in chat list
 
 It's possible that if Telegram will add ads, its removal will also be considered as Telegram API TOS violation.
+
+#### Will Android version be made? {#android}
+
+I'm not planning to make Android version. Maybe I'll experiment in future, but it's unlikely that I'll make a complete app.
 
 #### My anti-virus detects Kotatogram as a malware! {#antivirus-detect}
 
