@@ -1,13 +1,14 @@
 +++
 Title = "Features"
 description = "All features of Kotatogram Desktop."
+layout = "single"
 +++
 
 This is the list of features that Kotatogram Desktop have at the moment. Only exception is last section: "Was made in Telegram Desktop"
 
 ### Folders
 
-* Local folders
+* [Local folders](/features/local-folders)
 * Default folders
 * Expanded folder options
 * Additional info about chats in folder
