@@ -8,3 +8,12 @@
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+{{- if gt (len $.Site.Home.AllTranslations) 0 -}}
+	{{- range $.Site.Home.AllTranslations -}}
+		{{- if eq .Lang $.Site.Language.Lang -}}
+		<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}blog/index.xml" title="Kotatogram Blog: {{ .Language.Lang }}">
+		{{- end -}}
+	{{- end -}}
+{{- else -}}
+	<link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="Kotatogram Blog">
+{{- end -}}
