@@ -48,7 +48,7 @@ Only thing that can be done here is reporting false positives to anti-virus comp
 
 Sadly, there are cases like that, if client uses custom API ID and hash. Risc is bigger for virtual numbers, but many reports came from Russian phone number users.
 
-Currently it happens less often (or I just recieve reports less often). But if that happened to your account, you can write to recover@telegram.org or login@stel.com. Also you can open your mail app to send e-mail to login@stel.com with specific template by clicking "Help" button when trying to login to account.
+Currently it happens less often (or I just receive reports less often). But if that happened to your account, you can write to recover@telegram.org or login@stel.com. Also you can open your mail app to send e-mail to login@stel.com with specific template by clicking "Help" button when trying to login to account.
 
 #### Do you have any plans to monetize Kotatogram? {#monetize}
 
