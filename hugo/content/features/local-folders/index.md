@@ -76,6 +76,10 @@ Only drawback of local folders is pretty obvious: lack of synchronization betwee
 
 ## Change log {#changelog}
 
+### 1.4
+
+Fixed missing chats explicitly added or removed from folder.
+
 ### 1.3.9 beta
 
 First appearing of feature.

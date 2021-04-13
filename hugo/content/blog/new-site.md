@@ -1,9 +1,7 @@
 +++
 title = 'New site is now live!'
-slug = 'new-site'
 date = "2021-04-09T00:20:00+03:00"
 description = 'Time for site to update.'
-disableComments = true
 +++
 
 For a long time this site was abandoned. It featured old releases, old feature list... and that's it. It was pretty much a placeholder, than something useful.
