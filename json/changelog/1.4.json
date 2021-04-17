@@ -1,13 +1,1 @@
-{
-	"version": "1.4",
-	"tdVersion": "2.7.1",
-	"releaseDate": "2021-04-14T00:48:00+03:00",
-	"features": "- Multi-forward and unquoted forward.\nLong-suffering multi-forward and unquoted forward now finally has come to stable Kotatogram version. Now you can forward messages to multiple chats at once, or send them without author. You can also use message grouping options to group them in albums, or other way around, send albums as separate messages. And yes, if you want to return old forward window behavior where chat was opened on selection, you can enable “Open chat on click” option.\n\n- Local folders\nAside from cloud folders, Kotatogram now has local ones. Only drawback is the lack of synchronization. But in return they have limits removed as much as possible, and added new icons and filters.",
-	"changes": "Many changes.",
-	"links": [
-		{
-			"title": "Blog post",
-			"link": "https://kotatogram.github.io/blog/release-1-4"
-		}
-	]
-}
+{"version": "1.4", "tdVersion": "2.7.1", "releaseDate": "2021-04-14T00:48:00+03:00", "features": "- Multi-forward and unquoted forward.\nLong-suffering multi-forward and unquoted forward now finally has come to stable Kotatogram version. Now you can forward messages to multiple chats at once, or send them without author. You can also use message grouping options to group them in albums, or other way around, send albums as separate messages. And yes, if you want to return old forward window behavior where chat was opened on selection, you can enable \u201cOpen chat on click\u201d option.\n\n- Local folders\nAside from cloud folders, Kotatogram now has local ones. Only drawback is the lack of synchronization. But in return they have limits removed as much as possible, and added new icons and filters.", "changes": "Many changes.", "links": [{"title": "Blog post", "link": "https://kotatogram.github.io/blog/release-1-4"}]}
