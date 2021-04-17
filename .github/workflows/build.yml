@@ -37,6 +37,10 @@ jobs:
         run: |
           cd current/hugo
           hugo --minify
+      - name: Minify public JSON files
+        run: |
+          cd current
+          ./minify.py
       - name: Copy public files
         run: |
           cp -r current/hugo/public/* target/
