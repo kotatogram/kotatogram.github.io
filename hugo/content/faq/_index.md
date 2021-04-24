@@ -1,6 +1,7 @@
 +++
 Title = "FAQ"
 description = "Frequently asked questions about Kotatogram Desktop."
+layout = "single"
 +++
 
 Here tackled some questions that asked pretty frequently.
