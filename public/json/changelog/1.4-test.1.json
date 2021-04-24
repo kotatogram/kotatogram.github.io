@@ -1,0 +1,15 @@
+{
+	"version": "1.4-test.1",
+	"tdVersion": "2.7.1",
+	"releaseDate": "2021-04-24T16:08:00+03:00",
+	"whatToTest": "• Test branches. It's the first build with modified alpha versions from Telegram Desktop as test. Please note that in contrary to alpha versions, test builds can be updated only to test builds of corresponding branch, so it's highly discouraged to use them as main client. Also note that until next update you can see \"Update check failed\" message when checking for updates.\n• In-app changelogs. Example of it you can see right here.\n• Unquoted forward (yes, again). I changed part related to albums, so it's important to check unquoted forwarding of albums. Also it would be helpful to test updating of internal media references, i.e. open some file in chat and then forward it unquoted in a few hours without restarting the app.",
+	"features": "• In-app changelog. Currently it's downloaded from kotatogram.github.io.",
+	"changes": "• Reduced description font size for options with radio buttons. It was done to prevent options to go beyond the edge.\n• Removed unnecessary separator in own profile.",
+	"fixes": "• Kotatogram's MRPIS separated from Telegram Desktop's MPRIS.\n• Fixed crash when right-clicking emoji button. Earlier it can be reproduced with emoji side bar opened and emoji panel on hover disabled.\n• Possible fix for repeating changelogs. Can't be tested in this version, only in next.\n• Top profile notification switcher not shown in own profile anymore.",
+	"links": [
+		{
+			"title": "Test versions FAQ",
+			"link": "https://kotatogram.github.io/faq/test-versions"
+		}
+	]
+}
