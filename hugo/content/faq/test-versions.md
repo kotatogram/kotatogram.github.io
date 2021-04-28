@@ -10,6 +10,7 @@ layout = "single"
 * [Will they have auto-updates?](#auto-updates)
 * [Can I use my existing Kotatogram Desktop profile?](#existing-profile)
 * [How to report a bug in test version?](#bug-report)
+* [How to disable debug logs?](#debug-logs)
 * [Where to download test version?](#download)
 
 #### What are the test versions? {#about}
@@ -35,6 +36,12 @@ Also if new options are introduced, their values will be lost when switching to 
 Test version bugs are accepted in [Kotatogram chat](https://t.me/kotatochat) in Telegram. Also you can report directly to [@RadRussianRus](https://t.me/RadRussianRus) in Telegram.
 
 **Please note:** bug reports are accepted only for latest versions. Also it would be helpful to test if bug the bug exists in the corresponding version of Telegram Desktop if it's not about Kotatogram-exclusive feature.
+
+#### How to disable debug logs? {#debug-logs}
+
+Before you'll do it: since test versions are exist to check if features are working, logs can be useful for understanding the causes of the problem.
+
+If you're sure that they're not usefil to you, you can enter cheat code `debugmode` in settings. To enter it you'll need only to open settings and type it on keyboard.
 
 #### Where to download test version? {#download}
 
