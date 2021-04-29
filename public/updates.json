@@ -6,8 +6,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tupdate{version}"
         },
         "stable": {
-            "released": "1004000",
-            "testing": "1004000",
+            "released": "1004001",
+            "testing": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tupdate{version}"
         }
     },
@@ -18,8 +18,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tx64upd{version}"
         },
         "stable": {
-            "released": "1004000",
-            "testing": "1004000",
+            "released": "1004001",
+            "testing": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tx64upd{version}"
         }
     },
@@ -30,8 +30,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tlinuxupd{version}"
         },
         "stable": {
-            "released": "1004000",
-            "testing": "1004000",
+            "released": "1004001",
+            "testing": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tlinuxupd{version}"
         }
     },
@@ -42,8 +42,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tlinuxupd{version}"
         },
         "stable": {
-            "testing": "1004000",
-            "released": "1004000",
+            "testing": "1004001",
+            "released": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tlinuxupd{version}"
         }
     },
@@ -54,8 +54,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tmacupd{version}"
         },
         "stable": {
-            "testing": "1004000",
-            "released": "1004000",
+            "testing": "1004001",
+            "released": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tmacupd{version}"
         }
     },
@@ -66,8 +66,8 @@
             "link": "https://kotatogram.github.io/kdupdates/tmacupd{version}"
         },
         "stable": {
-            "testing": "1004000",
-            "released": "1004000",
+            "testing": "1004001",
+            "released": "1004001",
             "link": "https://kotatogram.github.io/kdupdates/tmacupd{version}"
         }
     }
