@@ -1,6 +1,6 @@
 stable:
-  version: "1.4"
-  tdesktop_version: "2.7.1"
+  version: "1.4.1"
+  tdesktop_version: "2.7.4"
   windows:
     subtitle:
       en: "Supports Windows 7 and higher."
@@ -9,19 +9,19 @@ stable:
       - name: 
           en: "32-bit installer"
           ru: "Установщик 32-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win32-setup.exe"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-win32-setup.exe"
       - name:
           en: "32-bit portable"
           ru: "Портативная 32-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win32-portable.zip"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-win32-portable.zip"
       - name: 
           en: "64-bit installer"
           ru: "Установщик 64-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win64-setup.exe"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-win64-setup.exe"
       - name:
           en: "64-bit portable"
           ru: "Портативная 64-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-win64-portable.zip"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-win64-portable.zip"
   linux:
     subtitle:
       en: "Supports Ubuntu 16.04 and higher."
@@ -30,7 +30,7 @@ stable:
       - name:
           en: "AppImage"
           ru: "AppImage"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-appimage.tar.xz"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-appimage.tar.xz"
     alternative:
       - name:
           en: "FlatHub page"
@@ -42,13 +42,13 @@ stable:
         link: "https://repology.org/project/kotatogram-desktop/versions"
   macos:
     subtitle: 
-      en: "Coming soon!"
-      ru: "Скоро!"
+      en: "Supports macOS 10.15 and higher."
+      ru: "Поддерживает macOS 10.15 и выше."
     builds:
       - name:
           en: "Download"
           ru: "Скачать"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4/1.4-macos.dmg"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.1/1.4.1-macos.dmg"
 beta:
   version: "1.3.9"
   tdesktop_version: "2.3.2"
