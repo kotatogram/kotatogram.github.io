@@ -5,7 +5,7 @@ import json
 
 for path, _, names in os.walk("public"):
     for name in names:
-        if not name.endswith(".json"):
+        if not name.endswith(".json") and name not in ["current", "current2"]:
             continue
 
         with open("{}/{}".format(path, name), "r", encoding="utf-8") as f:
