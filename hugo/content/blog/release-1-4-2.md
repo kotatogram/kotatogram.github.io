@@ -7,7 +7,7 @@ description = 'Fixes and source update to 2.8.11.'
 Since this version caught some beta version commits, the beta has been released. But aside from sources update, there is a few new features and fixes.
 
 {{< subheader >}}
-## Download stable 1.4.2
+## Download 1.4.2 beta
 based on Telegram Desktop 2.8.11
 {{< /subheader >}}
 
