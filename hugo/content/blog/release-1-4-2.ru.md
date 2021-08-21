@@ -17,12 +17,12 @@ description = 'Исправления и обновление исходнико
 {{< /subheader >}}
 
 {{< button-group class="actions" >}}
-    {{< button title="Установщик 32-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-setup.exe" class="icon solid fa-download primary" >}}
+    {{< button title="Установщик 32-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-installer.exe" class="icon solid fa-download primary" >}}
     {{< button title="Портативная 32-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-portable.zip" class="icon solid fa-download primary" >}}
 {{< /button-group >}}
 
 {{< button-group class="actions" >}}
-    {{< button title="Установщик 64-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-setup.exe" class="icon solid fa-download primary" >}}
+    {{< button title="Установщик 64-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-installer.exe" class="icon solid fa-download primary" >}}
     {{< button title="Портативная 64-бит" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-portable.zip" class="icon solid fa-download primary" >}}
 {{< /button-group >}}
 

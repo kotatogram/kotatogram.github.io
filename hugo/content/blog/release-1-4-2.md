@@ -17,12 +17,12 @@ Supports Windows 7 and higher.
 {{< /subheader >}}
 
 {{< button-group class="actions" >}}
-    {{< button title="32-bit installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-setup.exe" class="icon solid fa-download primary" >}}
+    {{< button title="32-bit installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-installer.exe" class="icon solid fa-download primary" >}}
     {{< button title="32-bit portable" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win32-portable.zip" class="icon solid fa-download primary" >}}
 {{< /button-group >}}
 
 {{< button-group class="actions" >}}
-    {{< button title="64-bit installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-setup.exe" class="icon solid fa-download primary" >}}
+    {{< button title="64-bit installer" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-installer.exe" class="icon solid fa-download primary" >}}
     {{< button title="64-bit portable" link= "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.2/1.4.2-win64-portable.zip" class="icon solid fa-download primary" >}}
 {{< /button-group >}}
 
