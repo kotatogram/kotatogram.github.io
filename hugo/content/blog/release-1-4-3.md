@@ -1,7 +1,7 @@
 +++
 title = 'Kotatogram 1.4.3 beta released!'
 date = "2021-08-26T22:16:00+03:00"
-description = 'Fixes and source update to 2.8.11.'
+description = 'Some minor features and fixes.'
 +++
 
 This update is pretty small in features, but it contains some internal work with versioning and updates that allows fasters rebuilds. Also this time I haven't forgot about translations, and Kotatogram even now has German translation.
