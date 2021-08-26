@@ -1,8 +1,8 @@
 {
     "win":{
         "beta":{
-            "released":"1004002",
-            "testing":"1004002",
+            "released":"1004003",
+            "testing":"1004003",
             "link":"/kdupdates/tupdate{version}"
         },
         "stable":{
@@ -13,8 +13,8 @@
     },
     "win64":{
         "beta":{
-            "released":"1004002",
-            "testing":"1004002",
+            "released":"1004003",
+            "testing":"1004003",
             "link":"/kdupdates/tx64upd{version}"
         },
         "stable":{
@@ -25,8 +25,8 @@
     },
     "linux":{
         "beta":{
-            "released":"1004002",
-            "testing":"1004002",
+            "released":"1004003",
+            "testing":"1004003",
             "link":"/kdupdates/tlinuxupd{version}"
         },
         "stable":{
@@ -37,8 +37,8 @@
     },
     "appimage":{
         "beta":{
-            "testing":"1004002",
-            "released":"1004002",
+            "testing":"1004003",
+            "released":"1004003",
             "link":"/kdupdates/tlinuxupd{version}"
         },
         "stable":{
@@ -49,8 +49,8 @@
     },
     "osx":{
         "beta":{
-            "testing":"1004002",
-            "released":"1004002",
+            "testing":"1004003",
+            "released":"1004003",
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
@@ -61,8 +61,8 @@
     },
     "mac":{
         "beta":{
-            "testing":"1004002",
-            "released":"1004002",
+            "testing":"1004003",
+            "released":"1004003",
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
