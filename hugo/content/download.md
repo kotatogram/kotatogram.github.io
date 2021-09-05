@@ -1,6 +1,7 @@
 ---
 Title: Download Kotatogram Desktop
 description: ""
+isDownloadPage: true
 ---
 
 {{< subheader >}}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang -}}
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ if $.Params.isDownloadPage }}
+    <p>{{ $data.download.description1 }}<b><a href="#stable">{{ .Site.Data.version.stable.version }}</a></b>{{ $data.download.description2 }}<b><a href="#beta">{{ .Site.Data.version.beta.version }}</a></b>{{ $data.download.description3 }}</p>
+    {{ else }}
+    {{ with .Param "description" }}
+    <p>{{ . }}</p>
+    {{ end }}
+    {{ end }}
+    {{ with .Date }}
+    <div><strong>{{ $.Site.Params.publishedOnStr }}</strong>{{ .Format $.Site.Params.dateFormat }}</div>
+    {{ end }}
+    {{ with .Param "tags" }}
+    <div>
+      <strong>{{ $.Site.Params.tagsStr }}</strong>
+      {{ range $index, $tag := . }}
+        {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) -}}
+            <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+        {{- end -}}
+      {{- end -}}
+    </div>
+    {{ end }}
+  </header>
+  <div class="box">
+    {{ with partial "bannerURL" . }}
+    <span class="image featured"><img src="{{ . }}" alt="" /></span>
+    {{ end }}
+    {{ .Content }}
+  </div>
+  {{ if .Site.DisqusShortname }}
+  <div class="box">
+    {{ template "_internal/disqus.html" . }}
+  </div>
+  {{ end }}
+  {{ if .Site.Params.tgCommentsSiteId }}
+  <div class="box">
+    <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="{{ .Site.Params.tgCommentsSiteId }}" data-limit="5" data-color="7953B1" data-dislikes="1" data-colorful="1"></script>
+  </div>
+  {{ end }}
+{{ end }}

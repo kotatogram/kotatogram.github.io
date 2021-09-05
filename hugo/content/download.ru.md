@@ -1,6 +1,7 @@
 ---
 Title: Скачать Kotatogram Desktop
 description: ""
+isDownloadPage: true
 ---
 {{< subheader >}}
 ## Стабильная версия {#stable}
