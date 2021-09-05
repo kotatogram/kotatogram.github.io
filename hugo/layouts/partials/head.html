@@ -17,7 +17,7 @@
 <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
 {{ end }}
-<meta property="og:site_name" content="{{ .Site.Params.sitename }} {{ .Kind }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 {{ if $.Params.isDownloadPage }}
 <meta name="description" content="{{ $data.download.description1 }}{{ .Site.Data.version.stable.version }}{{ $data.download.description2 }}{{ .Site.Data.version.beta.version }}{{ $data.download.description3 }}">
