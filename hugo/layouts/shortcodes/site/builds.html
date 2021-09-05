@@ -3,8 +3,12 @@
 {{ $builds := ((index (index $.Site.Data.version $branch) $os).builds) -}}
 {{ with $builds -}}
 <ul class="actions">
-	{{- range $builds }}
-	<li><a href="{{ .link }}" class="button icon solid fa-download primary">{{ index .name $.Site.Language.Lang }}</a></li>
+	{{- range $build_idx, $build := $builds }}
+	<li><a href="{{ $build.link }}" class="button icon solid fa-download primary">{{ index $build.name $.Site.Language.Lang }}</a></li>
+	{{- if (eq (mod $build_idx 2) 1) }}
+</ul>
+<ul class="actions">
+	{{ end -}}
 	{{ end -}}
 </ul>
 {{ end -}}
