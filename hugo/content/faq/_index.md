@@ -21,7 +21,7 @@ But keep in mind: even there are no updates for time, fork is not abandoned, bec
 
 #### Will ghost mode/blocked users ignore be made? {#ghost-mode}
 
-No. I'm not going to make features that violates Telegram API Terms of Service. This may result in problems for both fork and its users.
+No. I'm not going to make features that violate Telegram API Terms of Service. This may result in problems for both fork and its users.
 
 Following features currently considered as violating Telegram API Terms of Service:
 
@@ -48,7 +48,7 @@ Only thing that can be done here is reporting false positives to anti-virus comp
 
 #### Is it true that account can be banned because of unofficial client usage? {#alt-client-bans}
 
-Sadly, there are cases like that, if client uses custom API ID and hash. Risc is bigger for virtual numbers, but many reports came from Russian phone number users.
+Sadly, there are cases like that, if client uses custom API ID and hash. Risk is bigger for virtual numbers, but many reports came from Russian phone number users.
 
 Currently it happens less often (or I just receive reports less often). But if that happened to your account, you can write to recover@telegram.org or login@stel.com. Also you can open your mail app to send e-mail to login@stel.com with specific template by clicking "Help" button when trying to login to account.
 
