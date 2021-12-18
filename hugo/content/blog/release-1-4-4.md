@@ -46,7 +46,7 @@ Please note that update can be delayed.
 {{< /button-group >}}
 
 {{< subheader >}}
-### macOS {#stable-macos}
+### macOS
 Supports macOS 10.15 and higher. 
 {{</ subheader >}}
 

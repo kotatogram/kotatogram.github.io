@@ -46,7 +46,7 @@ description = 'Немного новых функций и исправлени�
 {{< /button-group >}}
 
 {{< subheader >}}
-### macOS {#stable-macos}
+### macOS
 Поддерживает macOS 10.15 и выше.
 {{</ subheader >}}
 

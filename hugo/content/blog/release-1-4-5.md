@@ -46,7 +46,7 @@ Please note that update can be delayed.
 {{< /button-group >}}
 
 {{< subheader >}}
-### macOS {#stable-macos}
+### macOS
 Currently not updated because of error in build process. It will be available as soon as it fixed.
 {{</ subheader >}}
 
