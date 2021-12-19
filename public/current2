@@ -49,8 +49,8 @@
     },
     "osx":{
         "beta":{
-            "testing":"1004004",
-            "released":"1004004",
+            "testing":"1004006",
+            "released":"1004006",
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
@@ -61,8 +61,8 @@
     },
     "mac":{
         "beta":{
-            "testing":"1004004",
-            "released":"1004004",
+            "testing":"1004006",
+            "released":"1004006",
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{

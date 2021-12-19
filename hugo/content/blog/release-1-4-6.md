@@ -49,7 +49,7 @@ Please note that update can be delayed.
 
 {{< subheader >}}
 ### macOS
-Supports macOS 10.15 and higher. Temporarily delayed in updater, so if you want to update sooner, you can download it from here.
+Supports macOS 10.15 and higher.
 {{</ subheader >}}
 
 {{< button-group class="actions" >}}
