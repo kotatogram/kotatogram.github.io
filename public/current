@@ -70,5 +70,17 @@
             "released":"1004001",
             "link":"/kdupdates/tmacupd{version}"
         }
+    },
+    "armac":{
+        "beta":{
+            "testing":"1004006",
+            "released":"1004006",
+            "link":"/kdupdates/tmacupd{version}"
+        },
+        "stable":{
+            "testing":"1004001",
+            "released":"1004001",
+            "link":"/kdupdates/tmacupd{version}"
+        }
     }
 }
