@@ -30,7 +30,7 @@ Supports Windows 7 and higher.
 
 {{< subheader >}}
 ### Linux
-Supports Ubuntu 16.04 and higher. 
+Supports Ubuntu 18.04 and higher. 
 {{< /subheader >}}
 
 {{< button-group class="actions" >}}

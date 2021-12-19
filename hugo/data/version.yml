@@ -75,8 +75,8 @@ beta:
         link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-win64-portable.zip"
   linux:
     subtitle:
-      en: "Supports Ubuntu 16.04 and higher."
-      ru: "Поддерживает Ubuntu 16.04 и выше."
+      en: "Supports Ubuntu 18.04 and higher."
+      ru: "Поддерживает Ubuntu 18.04 и выше."
     builds:
       - name:
           en: "AppImage"
