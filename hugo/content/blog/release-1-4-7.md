@@ -70,7 +70,7 @@ Supports macOS 10.15 and higher.
 * Fixed "External video player" option.
 
 ## Changes since last beta version
-* Instead of [removing window size restiction](https://github.com/kotatogram/kotatogram-desktop/pull/238) minumum window size was changed. It solves the same problem, but at least window is not breaking until the point it's not usable.
+* Instead of [removing window size restiction](https://github.com/kotatogram/kotatogram-desktop/pull/238) minimum window size was changed. It solves the same problem, but at least window is not breaking until the point it's not usable.
 * Ability to switch accounts by hotkeys.
 * Added icon near the author name in message.
 * Message about unsupported mode is now shown when opening animated profile picture in picture-in-picture mode. Implementing PiP for animated profile pictures is hard, but leaving the crash as-is is a bad idea, so it's disabled there until better days.
