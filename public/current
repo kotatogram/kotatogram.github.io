@@ -6,8 +6,8 @@
             "link":"/kdupdates/tupdate{version}"
         },
         "stable":{
-            "released":"1004005",
-            "testing":"1004005",
+            "released":"1004007",
+            "testing":"1004007",
             "link":"/kdupdates/tupdate{version}"
         }
     },
@@ -18,8 +18,8 @@
             "link":"/kdupdates/tx64upd{version}"
         },
         "stable":{
-            "released":"1004005",
-            "testing":"1004005",
+            "released":"1004007",
+            "testing":"1004007",
             "link":"/kdupdates/tx64upd{version}"
         }
     },
@@ -30,8 +30,8 @@
             "link":"/kdupdates/tlinuxupd{version}"
         },
         "stable":{
-            "released":"1004005",
-            "testing":"1004005",
+            "released":"1004007",
+            "testing":"1004007",
             "link":"/kdupdates/tlinuxupd{version}"
         }
     },
@@ -42,8 +42,8 @@
             "link":"/kdupdates/tlinuxupd{version}"
         },
         "stable":{
-            "testing":"1004005",
-            "released":"1004005",
+            "testing":"1004007",
+            "released":"1004007",
             "link":"/kdupdates/tlinuxupd{version}"
         }
     },
@@ -54,8 +54,8 @@
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
-            "testing":"1004001",
-            "released":"1004001",
+            "testing":"1004007",
+            "released":"1004007",
             "link":"/kdupdates/tmacupd{version}"
         }
     },
@@ -66,8 +66,8 @@
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
-            "testing":"1004001",
-            "released":"1004001",
+            "testing":"1004007",
+            "released":"1004007",
             "link":"/kdupdates/tmacupd{version}"
         }
     },
@@ -78,8 +78,8 @@
             "link":"/kdupdates/tmacupd{version}"
         },
         "stable":{
-            "testing":"1004001",
-            "released":"1004001",
+            "testing":"1004007",
+            "released":"1004007",
             "link":"/kdupdates/tmacupd{version}"
         }
     }
