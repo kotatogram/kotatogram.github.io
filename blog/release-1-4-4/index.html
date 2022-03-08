@@ -1,8 +1,7 @@
 <!doctype html><html>
 <head>
 <meta charset=utf-8>
-<title itemprop=name>Kotatogram 1.4.4 beta released! | Kotatogram Desktop</title>
-<meta property="og:title" content="Kotatogram 1.4.4 beta released! | Kotatogram Desktop">
+<title itemprop=name>Kotatogram 1.4.4 beta released! | Kotatogram Desktop</title><meta property="og:title" content="Kotatogram 1.4.4 beta released! | Kotatogram Desktop">
 <meta name=twitter:title content="Kotatogram 1.4.4 beta released! | Kotatogram Desktop">
 <meta itemprop=name content="Kotatogram 1.4.4 beta released! | Kotatogram Desktop">
 <meta name=application-name content="Kotatogram 1.4.4 beta released! | Kotatogram Desktop">
@@ -15,110 +14,43 @@
 <meta property="og:image" content="https://kotatogram.github.io/images/logo.png">
 <link rel=stylesheet href=/style.css>
 <link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
-<link rel=icon href=/favicon.ico type=image/x-icon><link rel=alternate type=application/rss+xml href=https://kotatogram.github.io/blog/index.xml title="Kotatogram Blog: en"></head>
-<body class=is-preload>
+<link rel=icon href=/favicon.ico type=image/x-icon><link rel=alternate type=application/rss+xml href=https://kotatogram.github.io/blog/index.xml title="Kotatogram Blog: en"></head><body class=is-preload>
 <div id=page-wrapper>
 <header id=header>
-<h1><a href=/>Kotatogram</a> Desktop</h1>
-<nav id=nav>
+<h1><a href=/>Kotatogram</a> Desktop</h1><nav id=nav>
 <ul><li>
 <a href=/>Home</a></li><li>
 <a class="icon solid fa-download" href=/download/>Download</a></li><li>
-<a class="icon solid fa-angle-down" href=#>About</a><ul><li><a href=/features/>Features</a></li><li><a href=/faq/>FAQ</a></li><li><a href=/blog/>Blog</a></li></ul></li>
-<li><a class="icon solid fa-language" href=https://kotatogram.github.io/ru/blog/release-1-4-4/>Русский</a></li>
-</ul>
-</nav>
-</header><section id=main class=container>
+<a class="icon solid fa-angle-down" href=#>About</a><ul><li><a href=/features/>Features</a></li><li><a href=/faq/>FAQ</a></li><li><a href=/blog/>Blog</a></li></ul></li><li><a class="icon solid fa-language" href=https://kotatogram.github.io/ru/blog/release-1-4-4/>Русский</a></li></ul></nav></header><section id=main class=container>
 <header>
-<h2>Kotatogram 1.4.4 beta released!</h2>
-<p>Updated sources, better unquoted forward, and option to disable chat themes.</p>
-<div><strong>Published on: </strong>Sep 22, 2021 at 09:01 PM</div>
-</header>
-<div class=box>
-<p>This update needed to be released as soon as possible because of user IDs update in all Telegram apps. But since there is a huge leap from last source update, some things could break, so it&rsquo;s the beta again to make minimal needed tests. If there will no bugs, or they will be easy to fix, this version will be quickly promoted to steable. But this version also has few new features with fixes.</p>
-<header>
-<h2 id=download-144-beta>Download 1.4.4 beta</h2>
-<p>based on Telegram Desktop 3.1
-</header>
-<header>
-<h3 id=windows>Windows</h3>
-<p>Supports Windows 7 and higher.
-</header>
-<ul class="actions actions">
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win32-installer.exe class="button icon solid fa-download primary">32-bit installer</a></li>
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win32-portable.zip class="button icon solid fa-download primary">32-bit portable</a></li>
-</ul>
-<ul class="actions actions">
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win64-installer.exe class="button icon solid fa-download primary">64-bit installer</a></li>
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win64-portable.zip class="button icon solid fa-download primary">64-bit portable</a></li>
-</ul>
-<header>
-<h3 id=linux>Linux</h3>
-<p>Supports Ubuntu 16.04 and higher.
-</header>
-<ul class="actions actions">
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-appimage.tar.xz class="button icon solid fa-download primary">AppImage</a></li>
-</ul>
-<header>
-<h4 id=alternative-options>Alternative options</h4>
-<p>Please note that update can be delayed.
-</header>
-<ul class="actions actions">
-<li><a href=https://flathub.org/apps/details/io.github.kotatogram class=button>FlatHub page</a></li>
-<li><a href=https://repology.org/project/kotatogram-desktop/versions class=button>Repology page</a></li>
-</ul>
-<header>
-<h3 id=macos>macOS</h3>
-<p>Supports macOS 10.15 and higher.
-</header>
-<ul class="actions actions">
-<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-macos.dmg class="button icon solid fa-download primary">Download</a></li>
-</ul>
-<h2 id=changes>Changes</h2>
-<ul>
-<li><strong>Added option to remember forward mode.</strong> Earlier it was reset after restart. Now default forward mode is saved between restarts, but you can restore Telegram Desktop&rsquo;s behavior, which resets forward mode to default.</li>
-<li><strong>Added ability to set default forward mode.</strong> Please not that if you have enabled remembering of forward mode, it will be re-written every time when it&rsquo;s changed in forward window. Otherwise this mode will always be selected by default.</li>
-<li><strong>Replaced unquoted forward method with option to restore the old one.</strong> Old method copied message data on client, while new one doing that on server. Since new method is doing much better than the old one, it is used in most cases. The exception is &ldquo;Regroup all media&rdquo; grouping mode, since it&rsquo;s not supported by server. If for any reason you need the old method, you can enable it for all forward modes.</li>
-<li><strong>Added option to disable per-chat themes.</strong> Since these themes can match bad with custom app themes and can hurt eyes when using custom dark app theme without using night mode switch, this Telegram feature wasn&rsquo;t liked by many users. If you also don&rsquo;t this themes because of the reasons above or any other reason, you can disable them.</li>
-<li><strong>Removed GTK integration option.</strong> Since GTK integration is no longer needed, option isn&rsquo;t needed anymore too.</li>
-</ul>
-<h2 id=fixes>Fixes</h2>
-<ul>
-<li>Fixed missing sending inline bot response preview option.</li>
-<li>Fixed missing sending inline bot response preview in comments and scheduled messages.</li>
-<li>Fixed option &ldquo;Disable edit by Up key&rdquo; in comments and scheduled messages.</li>
-</ul>
-<h2 id=replaced-by-default>Replaced by default</h2>
-<ul>
-<li><strong>GIF section in shared media.</strong> In TDesktop it&rsquo;s implemented differently, but there is no point in duplicating sections, so this section is now replace by default.</li>
-<li><strong>Forwarded sticker info.</strong> It&rsquo;s now shown for all stickers, so there is no point in duplicating code, especially since there are no visual differences here.</li>
-</ul>
-<h2 id=why-this-update-is-important>Why this update is important</h2>
-<p>Starting with making of Telegram, user IDs were stored in signed int32 which could hold up to 2,147,483,647 user IDs (including reserved ones). The problem is that pretty soon this quantity would be expended, so in order to prevent this, Telegram moved server and all its apps to int64 usage, which can hold up to 9,223,372,036,854,775,807 user IDs.</p>
-<p>So what will happen on int32 overflow? Currently it&rsquo;s known that new users won&rsquo;t be able to register in Telegram. Also it&rsquo;s possible that old apps wouldn&rsquo;t work at all, if Telegram won&rsquo;t make some kind of reverse compatibility, which, sadly, less likely in this case.</p>
-<h2 id=few-words-about-poll>Few words about poll</h2>
-<p>Recently I&rsquo;ve made the poll about how feature which influences chat themes should be properly named. With a small margin &ldquo;Disable chat themes&rdquo; has won, it will stay for now. But I understand what&rsquo;s the problem that started this entire poll: inverted switch logic can be confusing. I have an idea how to make such options more easy to understand, but releasing a new version was more important than re-working settings menu, so it will be done either in stable or after stable, which is more likely.</p>
-</div>
-<div class=box>
+<h2>Kotatogram 1.4.4 beta released!</h2><p>Updated sources, better unquoted forward, and option to disable chat themes.</p><div><strong>Published on: </strong>Sep 22, 2021 at 09:01 PM</div></header><div class=box>
+<p>This update needed to be released as soon as possible because of user IDs update in all Telegram apps. But since there is a huge leap from last source update, some things could break, so it&rsquo;s the beta again to make minimal needed tests. If there will no bugs, or they will be easy to fix, this version will be quickly promoted to steable. But this version also has few new features with fixes.</p><header>
+<h2 id=download-144-beta>Download 1.4.4 beta</h2><p>based on Telegram Desktop 3.1
+</header><header>
+<h3 id=windows>Windows</h3><p>Supports Windows 7 and higher.
+</header><ul class="actions actions">
+<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win32-installer.exe class="button icon solid fa-download primary">32-bit installer</a></li><li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win32-portable.zip class="button icon solid fa-download primary">32-bit portable</a></li></ul><ul class="actions actions">
+<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win64-installer.exe class="button icon solid fa-download primary">64-bit installer</a></li><li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-win64-portable.zip class="button icon solid fa-download primary">64-bit portable</a></li></ul><header>
+<h3 id=linux>Linux</h3><p>Supports Ubuntu 16.04 and higher.
+</header><ul class="actions actions">
+<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-appimage.tar.xz class="button icon solid fa-download primary">AppImage</a></li></ul><header>
+<h4 id=alternative-options>Alternative options</h4><p>Please note that update can be delayed.
+</header><ul class="actions actions">
+<li><a href=https://flathub.org/apps/details/io.github.kotatogram class=button>FlatHub page</a></li><li><a href=https://repology.org/project/kotatogram-desktop/versions class=button>Repology page</a></li></ul><header>
+<h3 id=macos>macOS</h3><p>Supports macOS 10.15 and higher.
+</header><ul class="actions actions">
+<li><a href=https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.4/1.4.4-macos.dmg class="button icon solid fa-download primary">Download</a></li></ul><h2 id=changes>Changes</h2><ul>
+<li><strong>Added option to remember forward mode.</strong> Earlier it was reset after restart. Now default forward mode is saved between restarts, but you can restore Telegram Desktop&rsquo;s behavior, which resets forward mode to default.</li><li><strong>Added ability to set default forward mode.</strong> Please not that if you have enabled remembering of forward mode, it will be re-written every time when it&rsquo;s changed in forward window. Otherwise this mode will always be selected by default.</li><li><strong>Replaced unquoted forward method with option to restore the old one.</strong> Old method copied message data on client, while new one doing that on server. Since new method is doing much better than the old one, it is used in most cases. The exception is &ldquo;Regroup all media&rdquo; grouping mode, since it&rsquo;s not supported by server. If for any reason you need the old method, you can enable it for all forward modes.</li><li><strong>Added option to disable per-chat themes.</strong> Since these themes can match bad with custom app themes and can hurt eyes when using custom dark app theme without using night mode switch, this Telegram feature wasn&rsquo;t liked by many users. If you also don&rsquo;t this themes because of the reasons above or any other reason, you can disable them.</li><li><strong>Removed GTK integration option.</strong> Since GTK integration is no longer needed, option isn&rsquo;t needed anymore too.</li></ul><h2 id=fixes>Fixes</h2><ul>
+<li>Fixed missing sending inline bot response preview option.</li><li>Fixed missing sending inline bot response preview in comments and scheduled messages.</li><li>Fixed option &ldquo;Disable edit by Up key&rdquo; in comments and scheduled messages.</li></ul><h2 id=replaced-by-default>Replaced by default</h2><ul>
+<li><strong>GIF section in shared media.</strong> In TDesktop it&rsquo;s implemented differently, but there is no point in duplicating sections, so this section is now replace by default.</li><li><strong>Forwarded sticker info.</strong> It&rsquo;s now shown for all stickers, so there is no point in duplicating code, especially since there are no visual differences here.</li></ul><h2 id=why-this-update-is-important>Why this update is important</h2><p>Starting with making of Telegram, user IDs were stored in signed int32 which could hold up to 2,147,483,647 user IDs (including reserved ones). The problem is that pretty soon this quantity would be expended, so in order to prevent this, Telegram moved server and all its apps to int64 usage, which can hold up to 9,223,372,036,854,775,807 user IDs.</p><p>So what will happen on int32 overflow? Currently it&rsquo;s known that new users won&rsquo;t be able to register in Telegram. Also it&rsquo;s possible that old apps wouldn&rsquo;t work at all, if Telegram won&rsquo;t make some kind of reverse compatibility, which, sadly, less likely in this case.</p><h2 id=few-words-about-poll>Few words about poll</h2><p>Recently I&rsquo;ve made the poll about how feature which influences chat themes should be properly named. With a small margin &ldquo;Disable chat themes&rdquo; has won, it will stay for now. But I understand what&rsquo;s the problem that started this entire poll: inverted switch logic can be confusing. I have an idea how to make such options more easy to understand, but releasing a new version was more important than re-working settings menu, so it will be done either in stable or after stable, which is more likely.</p></div><div class=box>
 <script async src=https://comments.app/js/widget.js?3 data-comments-app-website=LHtsLPom data-limit=5 data-color=7953B1 data-dislikes=1 data-colorful=1></script>
-</div>
-</section>
-<footer id=footer>
+</div></section><footer id=footer>
 <ul class=icons>
-<li><a href=https://t.me/kotatogram class="icon brands fa-telegram"><span class=label>Telegram</span></a></li>
-<li><a href=https://github.com/kotatogram/kotatogram-desktop class="icon brands fa-github"><span class=label>GitHub</span></a></li>
-</ul>
-<ul class=copyright>
-<li>2021 © <a href=https://t.me/RadRussianRus>RadRussianRus</a>. All rights reserved.</li>
-<li>Design: <a href=http://html5up.net/>HTML5 UP</a></li>
-<li>Hugo Port: <a href=https://nelsonroberto.com/>Nelson/Roberto</a>, modified by <a href=https://t.me/RadRussianRus>RadRussianRus</a></li>
-</ul>
-</footer></div>
-<script src=https://kotatogram.github.io/js/jquery.min.js></script>
+<li><a href=https://t.me/kotatogram class="icon brands fa-telegram"><span class=label>Telegram</span></a></li><li><a href=https://github.com/kotatogram/kotatogram-desktop class="icon brands fa-github"><span class=label>GitHub</span></a></li></ul><ul class=copyright>
+<li>2021 © <a href=https://t.me/RadRussianRus>RadRussianRus</a>. All rights reserved.</li><li>Design: <a href=http://html5up.net/>HTML5 UP</a></li><li>Hugo Port: <a href=https://nelsonroberto.com/>Nelson/Roberto</a>, modified by <a href=https://t.me/RadRussianRus>RadRussianRus</a></li></ul></footer></div><script src=https://kotatogram.github.io/js/jquery.min.js></script>
 <script src=https://kotatogram.github.io/js/jquery.dropotron.min.js></script>
 <script src=https://kotatogram.github.io/js/jquery.scrollex.min.js></script>
 <script src=https://kotatogram.github.io/js/browser.min.js></script>
 <script src=https://kotatogram.github.io/js/breakpoints.min.js></script>
 <script src=https://kotatogram.github.io/js/util.js></script>
-<script src=https://kotatogram.github.io/js/main.js></script></body>
-</html>
+<script src=https://kotatogram.github.io/js/main.js></script></body></html>
