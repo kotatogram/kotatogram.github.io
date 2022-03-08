@@ -50,8 +50,8 @@ stable:
           ru: "Скачать"
         link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.8/1.4.8-macos.dmg"
 beta:
-  version: "1.4.6"
-  tdesktop_version: "3.3"
+  version: "1.4.9"
+  tdesktop_version: "3.5.2"
   windows:
     subtitle:
       en: "Supports Windows 7 and higher."
@@ -60,19 +60,19 @@ beta:
       - name: 
           en: "32-bit installer"
           ru: "Установщик 32-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-win32-installer.exe"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-win32-installer.exe"
       - name:
           en: "32-bit portable"
           ru: "Портативная 32-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-win32-portable.zip"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-win32-portable.zip"
       - name: 
           en: "64-bit installer"
           ru: "Установщик 64-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-win64-installer.exe"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-win64-installer.exe"
       - name:
           en: "64-bit portable"
           ru: "Портативная 64-бит"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-win64-portable.zip"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-win64-portable.zip"
   linux:
     subtitle:
       en: "Supports Ubuntu 18.04 and higher."
@@ -81,7 +81,7 @@ beta:
       - name:
           en: "AppImage"
           ru: "AppImage"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-appimage.tar.xz"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-appimage.tar.xz"
     alternative:
       - name:
           en: "FlatHub page"
@@ -99,4 +99,4 @@ beta:
       - name:
           en: "Download"
           ru: "Скачать"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.6/1.4.6-macos.dmg"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-macos.dmg"
