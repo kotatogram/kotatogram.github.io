@@ -81,7 +81,7 @@ beta:
       - name:
           en: "AppImage"
           ru: "AppImage"
-        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-appimage.tar.xz"
+        link: "https://github.com/kotatogram/kotatogram-desktop/releases/download/k1.4.9/1.4.9-linux.tar.xz"
     alternative:
       - name:
           en: "FlatHub page"
